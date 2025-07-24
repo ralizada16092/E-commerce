@@ -67,7 +67,7 @@ function App() {
         />
 
         <Route path="/shop" element={
-      <Shop likedProducts={likedProducts} toggleLike={toggleLike} />
+      <Shop likedProducts={likedProducts} toggleLike={toggleLike} addToCart={addToCart}/>
     } />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
